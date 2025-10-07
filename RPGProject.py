@@ -4,7 +4,7 @@ import time
 
 
 #print with a typewriter effect
-def slow_print(text, delay=0.001):
+def slow_print(text, delay=0.04):
 
     for char in text:
         sys.stdout.write(char)
@@ -143,3 +143,4 @@ def adventure():
 #execute main code body
 if __name__ == "__main__":
     adventure()
+
